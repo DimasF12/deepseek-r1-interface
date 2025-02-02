@@ -1,6 +1,14 @@
 # deepseek-r1-interface
 ## preparation for running the program
+🤖 Deploy DeepSeek R1 Model with Google Colab (Using Ollama) + Simple Web Chatbot
 
+💻 Google Colab Specifications
+- Use GPU T4 runtime
+
+🗒️ Requirements
+- Ollama (make the model run)
+- Streamlite (makes the web UI run)
+- Ngrok (for tunneling the web port, so it can be public)
 ### 1. Install Ollama to run the model
 ```
 !curl -fsSL https://ollama.com/install.sh | sh
